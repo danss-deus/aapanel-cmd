@@ -1,4 +1,4 @@
-# aaPanel Uninstall English
+# aaPanel Command English
 
 # How To Use
 1. Clone this repository.
