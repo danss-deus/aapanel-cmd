@@ -9,7 +9,12 @@ git clone "https://github.com/danss-deus/aaPanel-cmd"
 ```
 cd aaPanel-cmd
 ```
-3. Copy and Execute
+3. Command
+- Install aaPanel
+```
+bash aap-install.sh
+```
+- Uninstall aaPanel
 ```
 sh aap-uninstall.sh
 ```
