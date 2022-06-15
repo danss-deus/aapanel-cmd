@@ -9,12 +9,12 @@ Remove_Bt(){
 	fi
 
 	if [ -f "/etc/init.d/bt_syssafe" ]; then
-		echo -e "This server is equipped with aaPanel system reinforcement may not uninstall properly, please execute the uninstall command after the panel is uninstalled!"
+		echo -e "This server is installed with aaPanel system hardening plugin, may not be able to uninstall properly, please execute the uninstall command after the panel is uninstalled!"
 		exit;
 	fi
 
 	if [ -f "/etc/init.d/bt_tamper_proof" ]; then
-		echo -e "This server is equipped with aaPanel anti-tampering/proof may not be able to uninstall properly, please execute the uninstall command after the panel is uninstalled!"
+		echo -e "This server is installed with aaPanel website-tamper-proof plugin, may not be able to uninstall properly, please execute the uninstall command after the panel is uninstalled!"
 		exit;
 	fi
 
@@ -26,7 +26,7 @@ Remove_Bt(){
 	fi
 	rm -rf /www/server/panel
 	rm -f /etc/init.d/bt
-	echo -e "aaPanel uninstall successfully"
+	echo -e "aaPanel successfully uninstalled"
 }
 Remove_Rpm(){
 	echo -e "Find installed packages..."
@@ -97,7 +97,7 @@ Remove_Data(){
 	rm -rf /www/wwwroot
 }
  
-#echo -e "What you want to do ?(Default:1)"
+#echo -e "What you want to do ?(Choose 1-2, Default: 1)"
 echo "1) Uninstall aaPanel"  
 echo "2) Uninstall aaPanel and operating environment (may affect site, database and other data)"
 #echo "3) Uninstall aaPanel and operating environment and clear all site related data"
