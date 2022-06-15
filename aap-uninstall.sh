@@ -103,7 +103,7 @@ echo "2) Uninstall aaPanel and operating environment (may affect site, database 
 #echo "3) Uninstall aaPanel and operating environment and clear all site related data"
 echo "*Please check whether the security software is turned off, otherwise it may cause the uninstallation to fail. "
 echo "=================================================" 
-read -p "Please select the operation you want to perform (Default: 1): " action; 
+read -p "Please select the operation you want to perform (Choose 1-2, Default: 1): " action; 
 
 case $action in
 	'1')
