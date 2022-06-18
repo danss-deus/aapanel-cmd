@@ -26,7 +26,7 @@ Remove_Bt(){
 	fi
 	rm -rf /www/server/panel
 	rm -f /etc/init.d/bt
-	echo -e "aaPanel successfully uninstalled"
+	echo -e "aaPanel uninstalled successfully"
 }
 Remove_Rpm(){
 	echo -e "Find installed packages..."
@@ -42,7 +42,7 @@ Remove_Rpm(){
 	done
 	yum remove bt-openssl* -y
 	yum remove bt-php* -y
-	echo -e "Clean up"
+	echo -e "Clean Up"
 }
 
 Remove_Service(){
@@ -89,7 +89,7 @@ Remove_Service(){
 		echo -e "node.js" "\033[32mclean\033[0m"
 	fi
 
-	echo "Clear aaPanel runtime environment complete"
+	echo "Clear aaPanel runtime environment completed"
 }
 Remove_Data(){
 	rm -rf /www/server/data
