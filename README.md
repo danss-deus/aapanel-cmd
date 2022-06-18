@@ -3,14 +3,14 @@
 # How To Use
 1. Clone this repository.
 ```
-git clone "https://github.com/danss-deus/aaPanel-cmd"
+git clone "https://github.com/danss-deus/aapanel-cmd"
 ```
 2. Open aaPanel-cmd folder
 ```
 cd aaPanel-cmd
 ```
 3. Command
-- Install aaPanel
+- Install aapanel
 ```
 bash aap-install.sh
 ```
